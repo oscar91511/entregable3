@@ -33,16 +33,26 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className ="App">
-      <form onSubmit={handleSubmit}>
-        <div>
-          <input id='locationId' placeholder="Type a location Id.." className="border-2 border-black" type="text"/>
-          <button>Search <i className='bx bx-search'></i></button>
-        </div>
+    <div className ="App bg-[url(/images/bg.jpg)]">
+     
+      <div className="-translate-y-[40%] ">
+      <img src="/images/portal2.png" alt="" className="animate-spin-slow mx-auto"/>
+      </div>
+      
+      <div className="flex justify-center">
+      <img src="/images/title.png" alt="" className="animate-pulse w-[515px] mx-auto  absolute top-[60px] "/>
+      </div>
 
-        <h2>Welcome to the crazy  universe!</h2>
+      
+      
+      <form onSubmit={handleSubmit} className="-translate-y-[50%]">
+        <div className="flex justify-center  ">
+          <input className="border-green-400 text-white font-bold " id='locationId' placeholder="Type a location Id.." className=" w-[400px] h-12 border-2 border-green-600" type="text"/>
+          <button className="border-[2px] border-green-500 w-28 bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white  bx bx-search -translate-y-[-25%]'></i></button>
+        </div>
+        
+        <h2 className="  text-green-500/70 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
       </form>
-      <h2>Entregable 3</h2>
       <Location location={location} />
       <ResidentList location={location} />
     </div>
