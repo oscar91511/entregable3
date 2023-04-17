@@ -30,19 +30,19 @@ const ResidentCard = ({resident}) => {
       </div>
       </div>
       <section className=" border-[1px] p-4 border-green-500">
-        <h3 className=" text-[18px] text-center">{residentInfo?.name}</h3>
+        <h3 className="text-blue-200 text-[15px] text-center">{residentInfo?.name}</h3>
         <ul className="">
           <li className="">
-            <span>Species :</span>
-            <span> {residentInfo?.species}</span>
+            <span className="text-yellow-300 font-bold">Species :</span>
+            <span className="text-[9px] pl-1 uppercase font-bold"> {residentInfo?.species}</span>
           </li>
           <li className="">
-            <span>Origin:</span>
-            <span>{residentInfo?.origin.name}</span>
+            <span  className="text-yellow-300 font-bold" >Origin:</span>
+            <span className="text-[15px] pl-16 font-bold">{residentInfo?.origin.name}</span>
           </li>
           <li className="">
-            <span>Times appear:</span>
-            <span>{residentInfo?.episode.length}</span>
+            <span  className="text-yellow-300 font-bold">Times appear:</span>
+            <span className="text-[15px] pl-4 uppercase font-bold">{residentInfo?.episode.length}</span>
           </li>
       
         </ul>
