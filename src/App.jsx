@@ -15,7 +15,7 @@ const handleSubmit = (e) => {
   e.preventDefault()
   
   const newLocation = e.target.locationId.value
-
+  if(newLocation.length === 0) return
   const URL = `https://rickandmortyapi.com/api/location/${newLocation}`
   
 
@@ -33,26 +33,28 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className =" App  text-white mx-auto bg-[url(/images/bg.jpg)] py-4 min-h-screen">
-     
-      <div className="-translate-y-[40%] ">
-      <img src="/images/portal2.png" alt="" className="animate-spin-slow mx-auto"/>
+    <div className =" App  text-white  mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
+     <header className="flex flex-col items-center gap-8 mb-8">
+     <div className="-translate-y-[40%]">
+      <img src="/images/portal2.png" alt="" className="animate-spin-slow lg:w-[500px] w-[80%] mx-auto"/>
       </div>
       
-      <div className="flex justify-center">
-      <img src="/images/title.png" alt="" className="animate-pulse w-[515px] mx-auto  absolute top-[60px] "/>
+      <div className="flex justify-center ">
+      <img src="/images/title.png" alt="" className="animate-pulse w-[400px] lg:w-[500px] mx-auto  absolute top-[60px] "/>
       </div>
 
       
       
       <form onSubmit={handleSubmit} className=" -translate-y-[50%]">
-        <div className="flex justify-center  ">
-          <input className="w-[400px] border-green-400 border-[2px] solid #8EFF8B bg-transparent text-white font-bold " id='locationId' placeholder="Type a location Id.."   type="" />
-          <button className="border-[2px] border-green-500 h-11 w-28 bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white  bx bx-search -translate-y-[-25%]'></i></button>
+        <div className="flex-col  h-[45px] border-[2px] border-green-400 sm:w-[600px] w-auto ">
+          <input className="w-[65%] pl-4 solid h-full bg-transparent text-white font-bold " id='locationId' placeholder="Type a location Id.."   type="" />
+          <button className="border-l-[2px] border-green-400 h-full w-[35%] bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white hover:bg-dark-green  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
         <h2 className="  text-green-300 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
       </form>
+     </header>
+      
       <Location location={location} />
       <ResidentList location={location} />
       </div>
