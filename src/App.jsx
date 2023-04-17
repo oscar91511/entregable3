@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className ="App bg-[url(/images/bg.jpg)]">
+    <div className ="App bg-[url(/images/bg.jpg)]  min-h-screen">
      
       <div className="-translate-y-[40%] ">
       <img src="/images/portal2.png" alt="" className="animate-spin-slow mx-auto"/>
