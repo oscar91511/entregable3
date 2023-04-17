@@ -45,10 +45,10 @@ const handleSubmit = (e) => {
 
       
       
-      <form onSubmit={handleSubmit} className="-translate-y-[50%]">
+      <form onSubmit={handleSubmit} className=" -translate-y-[50%]">
         <div className="flex justify-center  ">
-          <input className="border-green-400 text-white font-bold " id='locationId' placeholder="Type a location Id.." className=" w-[400px] h-12 border-2 border-green-600" type="text"/>
-          <button className="border-[2px] border-green-500 w-28 bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white  bx bx-search -translate-y-[-25%]'></i></button>
+          <input className="w-[400px] border-green-400 border-[2px] solid #8EFF8B bg-transparent text-white font-bold " id='locationId' placeholder="Type a location Id.."   type="" />
+          <button className="border-[2px] border-green-500 h-11 w-28 bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
         <h2 className="  text-green-500/70 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>

@@ -24,12 +24,12 @@ const ResidentList = ({location}) => {
   
   return    (
     <>
-    <section className="p-4 grid gap-6  grid-cols-[repeat(auto-fill,_minmax(220px,_1fr))] max-w-[1000px] mx-auto">
+    <section className="p-4  grid gap-6  grid-cols-[repeat(auto-fill,_minmax(220px,_1fr))] max-w-[1000px] mx-auto">
       {residents?.slice(startCut, endCut).map((resident) => (
         <ResidentCard key={resident} resident={resident} />
       ))}
     </section>
-      <ul className="flex gap-4 justify-center py-4">
+      <ul className="flex gap-4 text-white justify-center py-4">
         {
           arrayPages.map(page => <li onClick={() => setCurrentPage (page)} className={`p-3 cursor-pointer rounded-md ${page===
           currentPage&& " bg-green-800 text-white font-bold "}`} key={page}>{page}
