@@ -51,7 +51,7 @@ const handleSubmit = (e) => {
           <button className="border-l-[2px] border-green-400 h-full w-[35%] bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white hover:bg-dark-green  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
-        <h2 className="  text-green-300 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
+        <h2 className="  text-green-300 font-bold text-[30px] mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
       </form>
      </header>
       
