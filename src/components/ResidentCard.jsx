@@ -33,15 +33,15 @@ const ResidentCard = ({resident}) => {
         <h3 className="uppercase font-bold text-blue-200 text-[11px] text-center">{residentInfo?.name}</h3>
         <ul className="">
           <li className="">
-            <span className="text-yellow-300 font-bold">Species :</span>
+            <span className="text-lime-300 font-bold">Species :</span>
             <span className="text-[14px] pl-3  font-bold"> {residentInfo?.species}</span>
           </li>
           <li className="">
-            <span  className="text-yellow-300 font-bold" >Origin:</span>
+            <span  className="text-lime-300 font-bold" >Origin:</span>
             <span className="text-[14px] pl-7 font-bold">{residentInfo?.origin.name}</span>
           </li>
           <li className="">
-            <span  className="text-yellow-300 font-bold">Times appear:</span>
+            <span  className="text-lime-300 font-bold">Times appear:</span>
             <span className="text-[15px] pl-4 uppercase font-bold">{residentInfo?.episode.length}</span>
           </li>
       
