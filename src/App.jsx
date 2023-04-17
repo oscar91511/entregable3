@@ -51,7 +51,7 @@ const handleSubmit = (e) => {
           <button className="border-[2px] border-green-500 h-11 w-28 bg-green-400/50 text-white text-bold items-center ">Search <i className=' text-white  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
-        <h2 className="  text-green-500/70 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
+        <h2 className="  text-green-300 font-bold text-xl mt-16 text-center">¡ Welcome to the crazy  universe !</h2>
       </form>
       <Location location={location} />
       <ResidentList location={location} />
