@@ -36,11 +36,11 @@ const handleSubmit = (e) => {
     <div className =" App  text-white  mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
      <header className="flex flex-col items-center gap-8 mb-8">
      <div className="-translate-y-[40%]">
-      <img src="/images/portal2.png" alt="" className="animate-spin-slow lg:w-[90%] w-[70%] mx-auto"/>
+      <img src="/images/portal2.png" alt="" className="animate-spin-slow lg:w-[70%] w-[70%] mx-auto"/>
       </div>
       
       <div className="flex justify-center ">
-      <img src="/images/title.png" alt="" className="animate-pulse w-[55%] sm:w-[400px] mx-auto  absolute top-[60px] "/>
+      <img src="/images/title.png" alt="" className="animate-pulse w-[55%] sm:w-[350px] mx-auto  absolute top-[60px] "/>
       </div>
 
       
