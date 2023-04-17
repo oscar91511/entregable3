@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className =" App  text-white max-sm-[375px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
+    <div className =" App  text-white max-sm-[370px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
      <header className="flex flex-col items-center gap-8 mb-8">
      <div className="-translate-y-[40%]">
       <img src="/images/portal2.png" alt="" className="animate-spin-slow lg:w-[70%] w-[70%] mx-auto"/>
