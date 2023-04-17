@@ -30,7 +30,7 @@ const ResidentCard = ({resident}) => {
       </div>
       </div>
       <section className=" border-[1px] p-4 border-green-500">
-        <h3 className="uppercase font-bold text-blue-200 text-[11px] text-center">{residentInfo?.name}</h3>
+        <h3 className="uppercase font-bold text-blue-300 text-[11px] text-center">{residentInfo?.name}</h3>
         <ul className="">
           <li className="">
             <span className="text-lime-300 font-bold">Species :</span>
