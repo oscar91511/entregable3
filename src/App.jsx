@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className ="App bg-[url(/images/bg.jpg)]  min-h-screen">
+    <div className ="text-white   App bg-[url(/images/bg.jpg)] py-4 min-h-screen">
      
       <div className="-translate-y-[40%] ">
       <img src="/images/portal2.png" alt="" className="animate-spin-slow mx-auto"/>
@@ -55,7 +55,8 @@ const handleSubmit = (e) => {
       </form>
       <Location location={location} />
       <ResidentList location={location} />
-    </div>
+      </div>
+    
   )
 }
 

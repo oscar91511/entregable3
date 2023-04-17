@@ -29,7 +29,7 @@ const ResidentCard = ({resident}) => {
         <span>{residentInfo?.status}</span>
       </div>
       </div>
-      <section className=" border-[1px] border-green-500">
+      <section className=" border-[1px]  border-green-500">
         <h3 className=" text-[18px] text-center">{residentInfo?.name}</h3>
         <ul className="pl-3">
           <li>
@@ -40,7 +40,7 @@ const ResidentCard = ({resident}) => {
             <span>Origin:</span>
             <span  className=" pl-16">{residentInfo?.origin.name}</span>
           </li>
-          <li>
+          <li className="pb-[20px]">
             <span>Times appear:</span>
             <span  className=" pl-3">{residentInfo?.episode.length}</span>
           </li>
