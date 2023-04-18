@@ -30,19 +30,19 @@ const ResidentCard = ({resident}) => {
       </div>
       </div>
       <section className=" border-[1px] p-4 border-green-500">
-        <h3 className=" font-Dongle uppercase font-['Fira_Code'] text-blue-300 text-[11px] text-center">{residentInfo?.name}</h3>
+        <h3 className=" font-Dongle uppercase font-['Fira_Code'] text-blue-300 text-[10px]  text-center">{residentInfo?.name}</h3>
         <ul className=" ">
           <li className="">
-            <span className="text-lime-300 text-[12px] font-bold">Species :</span>
-            <span className="text-[9px] pl-1  font-bold"> {residentInfo?.species}</span>
+            <span className="text-lime-300 text-[9px] uppercase font-bold">Species :</span>
+            <span className="text-[8px] pl-1  font-bold uppercase"> {residentInfo?.species}</span>
           </li>
           <li className="">
-            <span  className="text-lime-300 text-[13px] font-bold" >Origin:</span>
-            <span className="text-[10px] pl-2 ">{residentInfo?.origin.name}</span>
+            <span  className="text-lime-300 text-[10px] font-bold uppercase" >Origin:</span>
+            <span className="text-[8px] pl-1 uppercase">{residentInfo?.origin.name}</span>
           </li>
           <li className="">
-            <span  className="text-lime-300 text-[12px] font-bold">Times appear:</span>
-            <span className="text-[15px] pl-4 uppercase font-bold">{residentInfo?.episode.length}</span>
+            <span  className="text-lime-300 text-[10px] uppercase font-bold">Times appear:</span>
+            <span className="text-[9px] pl-4 uppercase uppercase font-bold">{residentInfo?.episode.length}</span>
           </li>
       
         </ul>
