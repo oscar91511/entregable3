@@ -3,9 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {},
-      fontFamily: {},
-    },
+      fontFamily: {
+        'dongle': ['Dongle', 'sans-serif']
+      }
+    }
   },
+  variants: {},
   plugins: [],
-};
+}

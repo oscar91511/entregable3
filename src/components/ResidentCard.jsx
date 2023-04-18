@@ -34,7 +34,7 @@ const ResidentCard = ({resident}) => {
         <ul className="">
           <li className="">
             <span className="text-lime-300 font-bold">Species :</span>
-            <span className="text-[12px] pl-1  font-bold"> {residentInfo?.species}</span>
+            <span className="text-[11px] pl-1  font-bold"> {residentInfo?.species}</span>
           </li>
           <li className="">
             <span  className="text-lime-300 text-[13px] font-bold" >Origin:</span>
