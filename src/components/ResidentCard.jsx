@@ -30,15 +30,15 @@ const ResidentCard = ({resident}) => {
       </div>
       </div>
       <section className=" border-[1px] p-4 border-green-500">
-        <h3 className="uppercase font-bold text-blue-300 text-[11px] text-center">{residentInfo?.name}</h3>
+        <h3 className=" font-Dongle uppercase  text-blue-300 text-[11px] text-center">{residentInfo?.name}</h3>
         <ul className="">
           <li className="">
             <span className="text-lime-300 font-bold">Species :</span>
-            <span className="text-[14px] pl-3  font-bold"> {residentInfo?.species}</span>
+            <span className="text-[12px] pl-1  font-bold"> {residentInfo?.species}</span>
           </li>
           <li className="">
             <span  className="text-lime-300 font-bold" >Origin:</span>
-            <span className="text-[14px] pl-7 font-bold">{residentInfo?.origin.name}</span>
+            <span className="text-[10px] pl-2 ">{residentInfo?.origin.name}</span>
           </li>
           <li className="">
             <span  className="text-lime-300 font-bold">Times appear:</span>
