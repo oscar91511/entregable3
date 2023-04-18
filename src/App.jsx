@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
   }, []);
 
   return (
-    <div className =" App  text-white max-sm-[370px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
+    <div className =" App font-['Fira_Code'] text-white max-sm-[370px] mx-auto bg-[url(/images/bg.jpg)]  py-4 min-h-screen">
      <header className="flex flex-col items-center gap-8 mb-8">
      <div className="-translate-y-[40%]">
       <img src="/images/portal2.png" alt="" className="animate-spin-slow  w-[65%] mx-auto"/>
@@ -51,7 +51,7 @@ const handleSubmit = (e) => {
           <button className="border-l-[2px] border-lime-400 h-full w-[35%] bg-green-400/50 text-lime-300 text-bold items-center ">Search <i className=' text-lime-300 hover:bg-dark-green  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
-        <h2 className="font-sans-serif font bold-bold text-green-300 text-3xl mt-16 text-center">¡ Welcome to the crazy universe !</h2>
+        <h2 className="font-sans-serif font-['Fira_Code']  text-green-300 text-3xl mt-16 text-center">¡ Welcome to the crazy universe !</h2>
       </form>
      </header>
       
