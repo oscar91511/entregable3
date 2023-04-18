@@ -42,7 +42,7 @@ const ResidentCard = ({resident}) => {
           </li>
           <li className="">
             <span  className="text-lime-300 text-[10px] uppercase font-bold">Times appear:</span>
-            <span className="text-[9px] pl-4 uppercase uppercase font-bold">{residentInfo?.episode.length}</span>
+            <span className="text-[9px] pl-4 uppercase font-bold">{residentInfo?.episode.length}</span>
           </li>
       
         </ul>
