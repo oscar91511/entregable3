@@ -29,7 +29,7 @@ const ResidentCard = ({resident}) => {
         <span>{residentInfo?.status}</span>
       </div>
       </div>
-      <section className=" border-[1px] p-4 shadow-lime-200 shadow-lg border-green-500">
+      <section className=" border-[1px] p-4 shadow-green-500 shadow-lg border-green-500">
         <h3 className=" font-Dongle uppercase font-['Fira_Code'] text-blue-300 text-[10px]  text-center">{residentInfo?.name}</h3>
         <ul className=" ">
           <li className="">
