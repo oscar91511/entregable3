@@ -31,7 +31,7 @@ const ResidentCard = ({resident}) => {
       </div>
       <section className=" border-[1px] p-2 shadow-green-500 shadow-lg border-green-500">
         <h3 className=" font-Dongle uppercase font-['Fira_Code'] text-blue-300 text-[10px]  text-center">{residentInfo?.name}</h3>
-        <ul className=" ">
+        <ul className=" flex justify-evenly  w-full flex-row sm:justify-evenly py-4 font-bold sm:w-[500px] sm:flex-col">
           <li className="">
             <span className="text-lime-300 text-[10px] uppercase font-bold">Species :</span>
             <span className="text-[10px] pl-1  font-bold uppercase"> {residentInfo?.species}</span>
