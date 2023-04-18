@@ -48,7 +48,7 @@ const handleSubmit = (e) => {
       <form onSubmit={handleSubmit} className=" -translate-y-[50%]">
         <div className="flex-col  h-[45px] border-[2px] border-lime-400 sm:w-[600px] w-auto ">
           <input className="w-[65%] pl-4 solid h-full bg-transparent text-white font-bold " id='locationId' placeholder="Type a location Id.."   type="" />
-          <button className="border-l-[2px] border-lime-400 h-full w-[35%] bg-green-400/50 text-lime-300 text-bold items-center ">Search <i className=' text-lime-300 hover:bg-dark-green  bx bx-search -translate-y-[-25%]'></i></button>
+          <button className="border-[2px] border-lime-400 h-full w-[35%] bg-green-400/50 text-lime-300 text-bold items-center ">Search <i className=' text-lime-300 hover:bg-dark-green  bx bx-search -translate-y-[-25%]'></i></button>
         </div>
         
         <h2 className="font-sans-serif font-['Fira_Code']  text-green-300 text-3xl mt-16 text-center">¡ Welcome to the crazy universe !</h2>
