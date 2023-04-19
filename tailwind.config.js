@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'dongle': ['Dongle', 'sans-serif']
+        'dongle': ['Dongle, Nunito, Fira, sans-serif']
       }
     }
   },
