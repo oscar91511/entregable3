@@ -57,6 +57,32 @@ const handleSubmit = (e) => {
       
       <Location location={location} />
       <ResidentList location={location} />
+      <footer className="flex gap-2 p-4 justify-center">
+        <a
+          className="text-4xl hover:text-lime-400"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/oscar91511/entregable4"
+        >
+          <i className="bx bxl-github "></i>
+        </a>
+        <a
+          className="text-4xl hover:text-lime-400"
+          target="_blank" // permite abrir en nueva pestaña
+          rel="noopener noreferrer" //evita malwares maliciosos al abrir ventanas
+          href="https://www.linkedin.com/in/oscar-eduardo-lopez-restrepo-968a91265/"
+        >
+          <i className="bx bxl-linkedin "></i>
+        </a>
+        <a
+          className="text-4xl hover:text-lime-400"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/oscar915lr/"
+        >
+          <i className="bx bxl-instagram"></i>
+        </a>
+      </footer>
       </div>
     
   )
