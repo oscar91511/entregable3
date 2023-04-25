@@ -10,8 +10,8 @@
 *the  items included onto proyect are*
 
 - #### navbar Search
-- #### portal whit animate 
-- #### title animate
+- #### portal whit animation 
+- #### title whit animation
 - #### title whit name dimention
 - #### bar with specific information about Dimention place
 - #### card with information if he is alive or dead and more details
